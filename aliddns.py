@@ -286,7 +286,7 @@ def requestAndParseIp(url):
 
 
 def get_ipv4_net():
-    urlArr=["https://ipinfo.io/json","https://4.ipw.cn","https://ifconfig.me","https://icanhazip.com","https://api.ip.sb/jsonip"]
+    urlArr=["https://ipinfo.io/json","https://4.ipw.cn","https://ifconfig.me","https://icanhazip.com","https://api.ip.sb/jsonip","http://ip.3322.net"]
     for url in urlArr:
        ip = requestAndParseIp(url);
        if ip != None:
